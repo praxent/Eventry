@@ -6,15 +6,8 @@
 
 let logHours = document.getElementById('logHours');
 
-/*
-chrome.storage.sync.get('color', function(data) {
-  changeColor.style.backgroundColor = data.color;
-  changeColor.setAttribute('value', data.color);
-});
-
-*/
-
 
 logHours.onclick = function(element) {
   console.log("YEAHHH we're logging some hours now!");
+  
 };

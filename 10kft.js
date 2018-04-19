@@ -5,9 +5,9 @@ $(document).ready(function() {
   var prodAuthToken = 'bk93NGlXOVVIbWZoaDFYdHJKTE01VTVTcGVGNWlxRmRsUC8wcXpKNlBXcUd3OFh3b3BveWJqRlJyZzVOClhzRWE4Vm8xYTBSTkxjVHlQS1lEbXpCaFp4eUFMOGkvZHQ2ekFHcGRNUFBkRVZla2xOK1plemVjc04ySApFMVYzaXkzbgo=';
 
   var stagingUserId = '2814';
-  var stagingEndpoint = '/api/v1/users/' + stagingUserId + '/time_entries?from=2018-04-15&to=2018-04-17';
+  var stagingEndpoint = '/api/v1/users/' + stagingUserId + '/time_entries';
   var stagingAuthToken = 'WEwrN0Z6ZHJuMTNYU2lBMnF5ajJ4aW1icTd6OS9aM2RQNGMvWDVrRU5pSVprTHNlYVZyVHRQT1NUb1M0CkVWYk9ocFIxQmg4UGRxWVNVZTFZbm0raUl5ekNnSlZ3eStlNEVtb09OSlNOQi9zdXNHMUxxK1FBYXVCdgpnZXJIZ0tTSAo=';
-  var stagingUrl = 'https://vnext-api.10000ft.com' + stagingEndpoint + '?auth=' + stagingAuthToken;
+  var stagingUrl = 'https://vnext-api.10000ft.com' + stagingEndpoint + '?auth=' + stagingAuthToken + '&from=2018-04-15&to=2018-04-17';
 
   var data = {
     
